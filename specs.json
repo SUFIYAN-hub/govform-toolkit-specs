@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-08-18",
+  "specs": [
+    {
+      "id": "passport",
+      "label": "Passport Photo (India)",
+      "widthMm": 35,
+      "heightMm": 45,
+      "dpi": 300,
+      "maxSizeKb": 50,
+      "confidence": "official",
+      "sourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/online/photoSpec",
+      "sourceLabel": "Passport Seva - Official"
+    },
+    {
+      "id": "pan",
+      "label": "PAN Card Photo (NSDL/Protean)",
+      "widthMm": 35,
+      "heightMm": 25,
+      "dpi": 200,
+      "maxSizeKb": 50,
+      "confidence": "official",
+      "sourceUrl": "https://www.protean-tinpan.com/",
+      "sourceLabel": "Protean eGov - Official"
+    },
+    {
+      "id": "pan-signature",
+      "label": "PAN Signature (NSDL/Protean)",
+      "widthMm": 45,
+      "heightMm": 20,
+      "dpi": 200,
+      "maxSizeKb": 50,
+      "confidence": "community",
+      "sourceUrl": "https://www.protean-tinpan.com/",
+      "sourceLabel": "Protean eGov - verify before submitting"
+    }
+  ]
+}
