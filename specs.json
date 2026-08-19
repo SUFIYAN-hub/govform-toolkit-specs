@@ -3,16 +3,17 @@
   "lastUpdated": "2026-08-18",
   "specs": [
     {
-      "id": "passport",
-      "label": "Passport Photo (India)",
-      "widthMm": 35,
-      "heightMm": 45,
-      "dpi": 300,
-      "maxSizeKb": 50,
-      "confidence": "official",
-      "sourceUrl": "https://www.passportindia.gov.in/AppOnlineProject/online/photoSpec",
-      "sourceLabel": "Passport Seva - Official"
-    },
+  "id": "passport",
+  "label": "Passport Photo (India)",
+  "widthMm": 35,
+  "heightMm": 45,
+  "dpi": 300,
+  "maxSizeKb": 50,
+  "dimensionConfidence": "official",
+  "sizeConfidence": "community",
+  "sourceUrl": "https://www.passportindia.gov.in",
+  "sourceLabel": "Passport Seva"
+},
     {
       "id": "pan",
       "label": "PAN Card Photo (NSDL/Protean)",
